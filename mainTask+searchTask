@@ -1,0 +1,33 @@
+Main Task :
+namespace FirstTask
+{
+internal class Program
+{
+static void Main(string[] args)
+{
+Console.WriteLine("Estimate for carpet cleaning service\r\n ");
+Console.Write("Number of small carpets: ");
+int smallCarpets = Convert.ToInt32( Console.ReadLine());
+Console.Write("Number of small carpets: ");
+int largeCarpets = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Price per small room: $25\r\nPrice per large room: $35\r\nTax: 6%\r\n");
+int cost = Convert.ToInt32(smallCarpets*25 + largeCarpets*35);
+double tax = Convert.ToDouble(cost * 0.06);
+Console.WriteLine($"Cost: ${cost}");
+Console.WriteLine($"Tax: ${tax}");
+Console.WriteLine("===============================\r\n");
+Console.WriteLine($"Total estimate: ${cost+tax}");
+Console.WriteLine("This estimate is valid for 30 days");
+}
+}
+}
+=================================================
+Search Task :
+1.عشان حرف (C) بيعرض الرقم كعملة بمعنى انه بيضيف رمز العملة مع الرقم
+2.مجموعة التنسيقات دي فايدتها انها بتخليني اعرض الارقام بطرق مختلفة على حسب الي انا محتاجه
+3.
+انا استخدمت
+Format Specifier
+مختلف الي هو حرف (B)
+بيحول الرقم لبيناري
+
